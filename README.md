@@ -48,6 +48,7 @@ non-human player, the game implementation will make its own moves.
 Before each move, the board is displayed, and the piece stacks of each player
 are also shown. For example:
 
+<pre>
   +----+----+----+----+
   |    |    |    | OO |
 D |    |    |    | OO |
@@ -65,6 +66,7 @@ A |    |    | X  |    |
 
 Player 1 (X) Stacks: [2, 4, 4]
 Player 2 (O) Stacks: [3, 4, 4]
+</pre>
 
 In this situation, player 2 (O) is the next to play, and can choose to place
 a piece of size 3 or size 4 on the board, or move the piece at DD to another
